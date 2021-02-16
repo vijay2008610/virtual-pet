@@ -25,6 +25,8 @@ background(46, 139, 87);
 if (keyWentDown(UP_ARROW)){
   writeStock(foodS);
   dog.addImage(happyDogImg);
+  textSize(20);
+  text("FOOD REMAINING",20,30);
 }
   drawSprites();
   textSize(20);
